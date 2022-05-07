@@ -4,7 +4,7 @@ import axios from 'axios';
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState('');
-
+  //API Key knowingly visible 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&APPID=45ad3a9d4abbb937e7491bf6ac359691`;
 
   const searchLocation = (event) => {
